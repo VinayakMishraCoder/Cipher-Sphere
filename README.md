@@ -1,4 +1,4 @@
-# CryptoTracker - Your Real-Time Cryptocurrency Companion
+# Cipher Sphere - The Cryptocurrency Companion in Real-Time
 
 ## Overview
 
