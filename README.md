@@ -12,7 +12,8 @@ CipherSphere, an advanced Android app, provides users with up-to-the-minute info
 
 ### 2. Auto-Refresh Mechanism
    - Stay informed without manual intervention.
-   - Auto-refreshes when error occurs to try again.
+   - Auto-refreshes data every 3 minutes.
+   - Tries to auto-refresh data when an error occurs.
    - Also shows manual retry button.
 
 ### 3. Pull-to-Refresh
