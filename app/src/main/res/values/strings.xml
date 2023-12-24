@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">CipherSphere - CryptoCurrency Tracker</string>
+    <string name="cipher_sphere">Cipher Sphere</string>
+    <string name="rate">Rate: $</string>
+    <string name="last_updated">Last Updated: </string>
+    <string name="exchange_rates">Exchange Rates</string>
+    <string name="retry">Retry</string>
+</resources>
