@@ -2,7 +2,7 @@
 
 ## Overview
 
-CryptoTracker is a feature-rich Android application that empowers users with real-time information about various cryptocurrencies. With a user-friendly interface, auto-refresh, and pull-to-refresh functionalities, CryptoTracker is your go-to companion for staying updated on cryptocurrency prices effortlessly.
+CipherSphere, an advanced Android app, provides users with up-to-the-minute information on diverse cryptocurrencies. Boasting a user-friendly interface, automatic refresh, and pull-to-refresh capabilities, CipherSphere stands as your ultimate companion for effortlessly staying informed about cryptocurrency prices.
 
 ## Key-Features
 
@@ -21,10 +21,11 @@ CryptoTracker is a feature-rich Android application that empowers users with rea
 
 ## Demo Video
 
+https://github.com/VinayakMishraCoder/Cipher-Sphere/assets/85163724/d7aaee6d-9724-44a8-86a1-57f58d9c15fa
 
 ## Feedback and Support
 
-We value your feedback! If you encounter any issues or have suggestions for improvement, please contact our support team at [support@cryptotrackerapp.com](mailto:vinayakfredrics@gmail.com).
+We value your feedback! If you encounter any issues or have suggestions for improvement, please contact our support team at [@support](mailto:vinayakfredrics@gmail.com).
 
 ## Connect
 
