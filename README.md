@@ -20,6 +20,13 @@ CipherSphere, an advanced Android app, provides users with up-to-the-minute info
    - Instantly update cryptocurrency prices with a simple pull-to-refresh gesture.
    - Enjoy a responsive and dynamic user interface.
 
+## Technologies Used
+   - Dagger Hilt as dependency injection.
+   - MVVM Architecture
+   - Kotlin Codebase.
+   - Material Design
+   - RetroFit Framework for HTTP requests.
+
 ## Demo Video
 
 https://github.com/VinayakMishraCoder/Cipher-Sphere/assets/85163724/d7aaee6d-9724-44a8-86a1-57f58d9c15fa
