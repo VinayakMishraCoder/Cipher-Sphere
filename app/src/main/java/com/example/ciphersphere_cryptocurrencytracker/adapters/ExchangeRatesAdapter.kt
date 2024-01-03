@@ -7,7 +7,7 @@ import com.example.ciphersphere_cryptocurrencytracker.databinding.ExchangeRateIt
 import com.example.ciphersphere_cryptocurrencytracker.datamodels.FinalCurrencyData
 import javax.inject.Inject
 
-class ExchangeRatesAdapter @Inject constructor(): RecyclerView.Adapter<ExchangeRatesAdapter.ExchangeRatesViewAdapter>() {
+class ExchangeRatesAdapter @Inject constructor(): RecyclerView.Adapter<ExchangeRatesAdapter.ExchangeRatesViewHolder>() {
     private var dataList = ArrayList<FinalCurrencyData>()
 
     fun setDataList(listings: ArrayList<FinalCurrencyData>?) {
@@ -17,18 +17,18 @@ class ExchangeRatesAdapter @Inject constructor(): RecyclerView.Adapter<ExchangeR
         notifyDataSetChanged()
     }
 
-    inner class ExchangeRatesViewAdapter(var binding: ExchangeRateItemBinding) :
+    inner class ExchangeRatesViewHolder(var binding: ExchangeRateItemBinding) :
         RecyclerView.ViewHolder(binding.root) {
             fun bind(currExchangeRate: FinalCurrencyData) {
                 binding.currentExchangeRate = currExchangeRate
             }
         }
 
-    override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): ExchangeRatesViewAdapter {
-        return ExchangeRatesViewAdapter(ExchangeRateItemBinding.inflate(LayoutInflater.from(parent.context), parent, false))
+    override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): ExchangeRatesViewHolder {
+        return ExchangeRatesViewHolder(ExchangeRateItemBinding.inflate(LayoutInflater.from(parent.context), parent, false))
     }
 
-    override fun onBindViewHolder(holder: ExchangeRatesViewAdapter, position: Int) {
+    override fun onBindViewHolder(holder: ExchangeRatesViewHolder, position: Int) {
         holder.bind(dataList[position])
     }
 
