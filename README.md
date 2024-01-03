@@ -1,66 +1,40 @@
-# CryptoTracker - Your Real-Time Cryptocurrency Companion
+# Cipher Sphere - The Cryptocurrency Companion in Real-Time
 
 ## Overview
 
-CryptoTracker is a feature-rich Android application that empowers users with real-time information about various cryptocurrencies. With a user-friendly interface, auto-refresh, and pull-to-refresh functionalities, CryptoTracker is your go-to companion for staying updated on cryptocurrency prices effortlessly.
+CipherSphere, an advanced Android app, provides users with up-to-the-minute information on diverse cryptocurrencies. Boasting a user-friendly interface, automatic refresh, and pull-to-refresh capabilities, CipherSphere stands as your ultimate companion for effortlessly staying informed about cryptocurrency prices.
 
-## Key Features
+## Key-Features
 
-### 1. Real-Time Cryptocurrency Prices
-   - Get up-to-the-minute updates on cryptocurrency prices from multiple exchanges.
-   - Comprehensive coverage of a wide range of cryptocurrencies.
-
-### 2. User-Friendly Interface
+### 1. User-Friendly Interface
    - Intuitive design for a seamless user experience.
-   - Easy navigation to explore and track your favorite cryptocurrencies.
+   - Easy to track your favorite cryptocurrencies.
 
-### 3. Auto-Refresh Functionality
+### 2. Auto-Refresh Mechanism
    - Stay informed without manual intervention.
-   - Set customizable auto-refresh intervals to suit your preferences.
+   - Auto-refreshes data every 3 minutes.
+   - Tries to auto-refresh data when an error occurs.
+   - Also shows manual retry button.
 
-### 4. Pull-to-Refresh
+### 3. Pull-to-Refresh
    - Instantly update cryptocurrency prices with a simple pull-to-refresh gesture.
    - Enjoy a responsive and dynamic user interface.
 
-### 5. Detailed Cryptocurrency Information
-   - View detailed information for each cryptocurrency, including market cap, volume, and percentage change.
-   - Stay informed about the latest trends with historical price charts.
+## Technologies Used
+   - Dagger Hilt as dependency injection.
+   - MVVM Architecture
+   - Kotlin Codebase.
+   - Material Design
+   - RetroFit Framework for HTTP requests.
 
-### 6. Personalized Watchlist
-   - Create a personalized watchlist to track your preferred cryptocurrencies.
-   - Receive notifications for significant price changes.
+## Demo Video
 
-### 7. Currency Conversion
-   - Easily switch between different fiat currencies for pricing.
-   - Convert cryptocurrency prices to your preferred currency.
-
-## Installation
-
-1. Download the CryptoTracker APK from the official website or authorized app store.
-2. Enable installation from unknown sources in your device settings.
-3. Install the APK and follow the on-screen instructions.
-
-## Getting Started
-
-1. **Home Screen**: Browse through the list of cryptocurrencies with their current prices.
-2. **Detailed View**: Tap on a cryptocurrency to view detailed information and historical charts.
-3. **Watchlist**: Add your favorite cryptocurrencies to the watchlist for quick access.
-4. **Settings**: Customize auto-refresh intervals, fiat currencies, and other preferences.
+https://github.com/VinayakMishraCoder/Cipher-Sphere/assets/85163724/d7aaee6d-9724-44a8-86a1-57f58d9c15fa
 
 ## Feedback and Support
 
-We value your feedback! If you encounter any issues or have suggestions for improvement, please contact our support team at [support@cryptotrackerapp.com](mailto:support@cryptotrackerapp.com).
+We value your feedback! If you encounter any issues or have suggestions for improvement, please contact our support team at [@support](mailto:vinayakfredrics@gmail.com).
 
-## Privacy and Security
+## Connect
 
-Your data security is our priority. CryptoTracker does not collect or store any personal information. For more details, please refer to our Privacy Policy.
-
-## Connect with Us
-
-Stay updated on the latest developments and news by following us on [Twitter](https://twitter.com/CryptoTrackerApp) and [Facebook](https://www.facebook.com/CryptoTrackerApp).
-
-## License
-
-CryptoTracker is licensed under the [MIT License](LICENSE.md). Feel free to contribute and enhance the application.
-
-Thank you for choosing CryptoTracker! Happy tracking!
+Connect on [LinkedIn](https://www.linkedin.com/in/vinayak-mishra-235600211/).
